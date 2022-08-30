@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+.banner {
+  padding: 50px 0;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 710px;
+}
+
+
+.profile img {
+  width: 400px;
+  height: 490px;
+  object-fit: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-left: 260px;
+  padding-top: 120px;
+  border-radius: 10px;
+}
+
+
+.banner .introduction {
+  padding-left: 630px;
+  width: 600px;
+  height: 200px;
+  margin-top: -300px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.introduction h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 65px 30px;
+  background: linear-gradient(0deg, rgba(0, 0, 126, 0.3), rgba(0, 0, 126, 0.3)), #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.info {
+  padding: 18px 0;
+  background-color: white;
+  margin: 20px auto;
+  width: 1440px;
+}
+
+.info h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 22px;
+  color: #000000;
+  padding: 0;
+  text-align: center;
+  display: justify contents;
+  margin-bottom: 30px;
+
+}
+
+.info a {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-decoration-line: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  padding: 4px 80px;
+  margin-left: 300px;
+}
+
+.info .green {
+  background: linear-gradient(0deg, rgba(0, 128, 0, 0.4), rgba(0, 128, 0, 0.4)), #FFFFFF;
+  margin-left: 50px;
+}
+
+.info .green:hover {
+  background-color: rgba(0, 128, 0, 0.5);
+}
+
+.info .pink {
+  background: linear-gradient(0deg, rgba(129, 0, 0, 0.4), rgba(129, 0, 0, 0.4)), #FFFFFF;
+  margin-left: 50px;
+}
+
+.info .pink:hover {
+  background-color: rgba(129, 0, 0, 0.5);
+}
+
+.info .purple {
+  background: linear-gradient(0deg, rgba(0, 0, 70, 0.4), rgba(0, 0, 70, 0.4)), #FFFFFF;
+}
+
+.info .purple:hover {
+  background-color: rgba(0, 0, 70, 0.5);
+}
+
+.project {
+  padding: 50px 0;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+
+.project .web-app-scr-gr img {
+  padding-left: 650px;
+  object-fit: cover;
+  width: 654px;
+  height: 483px;
+  border-radius: 10px;
+}
+
+.project .web-app-scr-hrs img {
+  object-fit: cover;
+  width: 654px;
+  height: 483px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+.project .web-app-scr-art img {
+  object-fit: cover;
+  width: 654px;
+  height: 483px;
+  padding-left: 650px;
+  border-radius: 10px;
+}
+
+.project .description-gr {
+  width: 600px;
+  height: 250px;
+  background: linear-gradient(0deg, rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.3)), #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -350px;
+  margin-left: 70px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.project .description-hrs {
+  width: 600px;
+  height: 250px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, rgba(129, 0, 0, 0.3), rgba(129, 0, 0, 0.3)), #FFFFFF;
+  margin-left: 700px;
+  margin-top: -350px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.project .description-art {
+  width: 620px;
+  height: 280px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, rgba(0, 0, 126, 0.3), rgba(0, 0, 126, 0.3)), #FFFFFF;
+  margin-left: 50px;
+  margin-top: -350px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.project h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.project p {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+  padding: 0px 20px;
+  text-align: justify;
+}
+
+.project .description-gr a {
+  background: linear-gradient(0deg, rgba(0, 0, 70, 0.4), rgba(0, 0, 70, 0.4)), #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration-line: none;
+  padding: 4px 20px;
+  margin-left: 235px;
+}
+
+.project .description-hrs a {
+  background: linear-gradient(0deg, rgba(0, 128, 0, 0.4), rgba(0, 128, 0, 0.4)), #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration-line: none;
+  padding: 4px 20px;
+  margin-left: 235px;
+}
+
+.project .description-art a {
+  background: linear-gradient(0deg, rgba(129, 0, 0, 0.4), rgba(129, 0, 0, 0.4)), #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration-line: none;
+  padding: 4px 20px;
+  margin-left: 235px;
+}
+
+.project .description-art a:hover {
+  background-color: rgba(129, 0, 0, 0.5);
+}
+
+.project .description-gr a:hover {
+  background-color: rgba(0, 0, 70, 0.5);
+}
+
+.project .description-hrs a:hover {
+  background-color: rgba(0, 128, 0, 0.5);
+}
